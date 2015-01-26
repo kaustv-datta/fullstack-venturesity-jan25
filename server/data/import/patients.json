@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Kaustav0",
+        "age": 24,
+        "mobile": 9321414964,
+        "email": "kaustv0.datta@gmail.com",
+        "registrationDate": "10/20/1990",
+        "doctor": "Avinash Bhosle0"
+    },
+    {
+        "name": "Kaustav1",
+        "age": 24,
+        "mobile": 9321414964,
+        "email": "kaustv1.datta@gmail.com",
+        "registrationDate": "10/20/1990",
+        "doctor": "Avinash Bhosle1"
+    },
+    {
+        "name": "Kaustav2",
+        "age": 24,
+        "mobile": 9321414964,
+        "email": "kaustv2.datta@gmail.com",
+        "registrationDate": "10/20/1990",
+        "doctor": "Avinash Bhosle2"
+    },
+    {
+        "name": "Kaustav3",
+        "age": 24,
+        "mobile": 9321414964,
+        "email": "kaustv3.datta@gmail.com",
+        "registrationDate": "10/20/1990",
+        "doctor": "Avinash Bhosle3"
+    }
+]

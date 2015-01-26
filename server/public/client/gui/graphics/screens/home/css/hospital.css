@@ -1,0 +1,31 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img.company-logo {
+    height: 20px;
+    width: 20px;
+}
+
+#hospital-container {
+    min-height: 80%;
+}
+
+.vertical-center .btn-group-vertical{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}

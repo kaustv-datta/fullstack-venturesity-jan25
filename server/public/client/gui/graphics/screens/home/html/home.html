@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patient Management System</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Patient Management System" />
+    <meta name="author" content="Kaustav Datta" />
+    <!-- For bootstrap -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="../../../../core/alien/bootstrap-3.3.1/css/bootstrap-cerulean.css" />
+    <link rel="stylesheet" href="../../../../core/alien/alertify.js-0.3.11/alertify.core.css" />
+    <link rel="stylesheet" href="../../../../core/alien/alertify.js-0.3.11/alertify.bootstrap.css" />
+
+    <link rel="stylesheet" href="../css/hospital.css" />
+</head>
+
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="#">HMS</a>-->
+            <a class="navbar-brand" href="#">
+                <img class="company-logo" alt="Brand" src="../images/logo.png">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Admin Login</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div id="hospital-container" class="container-fluid">
+
+    <div class="row">
+        <div class="col-md-2 col-md-offset-5">
+            <div class="btn-group-vertical">
+                <a id="register-option-btn" href="#" class="btn btn-info">Register Patient</a>
+                <a id="manage-option-btn" href="#" class="btn btn-info">Manage Patient</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="action-center" class="row">
+    </div>
+
+</div>
+
+<!-- Alien Scripts -->
+<script src="../../../../core/alien/alertify.js-0.3.11/alertify.js"></script>
+<script src="../../../../core/alien/jquery-2.1.3.js"></script>
+<script src="../../../../core/alien/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+
+<!-- Global Namespace -->
+<script src="../../../../core/inhouse/memory/ApplicationContext.js"></script>
+
+<!-- Interactors -->
+<script src="../../../../core/inhouse/interactors/GetPatient.js"></script>
+
+<!-- Inhouse Scripts -->
+<script src="../js/hospital.js"></script>
+
+<!-- Event Handlers -->
+<script src="../js/eventHandlers.js"></script>
+</body>
+
+</html>
